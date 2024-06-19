@@ -1,0 +1,208 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: Fuente1;
+    src: url('../public/Montserrat-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: Fuente2;
+    src: url('../public/BebasNeue-Regular.ttf');
+}
+
+/*Header*/
+.header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: black;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+.headerTitulo{
+    font-family: Fuente2;
+    padding: 1rem;
+    color: white;
+}
+
+/*Primera API*/
+.seccionPrimera{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    background-color: gainsboro;
+}
+.primerContenedor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 2rem;
+    background-color: white;
+}
+.primerContenedor__cards{
+    
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.primerContenedor__cardsImg{
+    width: 15rem;
+    height: 20rem;
+}
+.primerContenedor__cardsTitutlo{
+    font-family: Fuente1;
+    font-size: 1rem;
+    text-align: center;
+}
+.primerContenedor__cardsBoton{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color:black ;
+    color: white;
+    cursor: pointer;
+    margin: 2rem;
+    font-family: Fuente1;
+    border: 1rem;
+}
+.primerContenedor__cardsBoton:hover{
+    background-color: rgb(107, 0, 208);
+}
+/*Segunda API*/
+.segundoContenedor{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto;
+    width:40%;
+    height: 30vh;
+    border: 1px solid rgb(130, 129, 129);
+    border-radius: 2rem;
+    padding: 2rem;
+    font-family: Fuente1;
+    gap: 2rem;
+    background-color: rgb(255, 255, 255);
+}
+.segundo__img{
+  width: 30%;
+}
+.segundo__titulo{
+    margin: 2rem 0;    
+}
+.segundo__texto{
+    margin: 1rem;    
+}
+.seccionSegunda{
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+}
+/*Tercera API*/
+.seccionTercera{
+    display: grid;
+    width: 100%;
+    height:auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    width: 500px;
+    font-family: Fuente1;
+}
+.tercerContenedor__boton{
+    background-color: rgb(17, 164, 232);
+    width: 10rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.tercera__link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+.tercera__link:hover{
+    text-decoration: none;
+    color: blue;
+}
+/*Cuarta API*/
+.seccionCuarta{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:2rem;
+    background-color: rgb(225, 149, 106);
+    margin: 2rem 0;
+}
+.cuartoContenedor__titulo{
+    display: flex;
+    justify-content: center;
+    font-family: Fuente2;
+    color: white;
+}
+.cuartoContenedor__cardsImg{
+    width:8rem;
+    height: 9rem;
+    margin: 1rem;
+}
+.cuartoContenedor__cardsNombre{
+    font-family: Fuente1;
+    margin:2rem 3rem;
+}
+.cuartoContenedor__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid gray;
+    margin: 2rem 2rem 2rem 7rem;
+    border-radius: 2rem;
+    background-color:white;
+    box-shadow: 10px 10px 10px rgba(54, 54, 54, 0.7) inset,
+                10px 10px 10px rgba(54, 54, 54, 0.5); 
+    cursor: pointer;
+}
+.linea{
+    background-color: grey;
+    box-shadow: 0 0px 2px rgba(54, 54, 54, 0.5);
+    width: 100%;
+}
+/*Quinta API*/
+.seccionQuinta{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin: 2rem;
+}
+.quintoContenedor__titulo{
+    font-family: Fuente2;
+   font-size: 1.2rem;
+}
+.quintoContenedor__texto{
+    font-family: Fuente1;
+    font-size: 0.8rem;
+}
+.quintoContenedor__img{
+    width: 100%;
+    height: 30vh;
+}
